@@ -1,1 +1,29 @@
-site_name: My Docs
+site_name: docs_test
+site_url: https://xxx.com
+site_description: test mkdocs pages
+site_author: xxx
+
+nav:
+  - Home: index.md
+  - User Guide:
+      - Install: user_guide/install.md
+      - Usage: user_guide/usage/usage.md
+      - Tutorial: user_guide/tutorial/tutorial.md
+  - About: 
+      - Description: about/about.md
+
+
+theme:
+  name: readthedocs
+
+
+# markdown_extentions:
+#   - admonition
+
+# extra_css:
+#   - resources/css/extra.css
+
+copyright: Copyright © 2020 [xxx](https://www.xxx.com/)
+
+plugins:
+  - search
