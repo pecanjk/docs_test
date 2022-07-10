@@ -1,1 +1,4 @@
 mkdocs
+mkdocstrings #抽取代码中注释
+mkdocs-include-markdown-plugin #引入任何路径文档
+Admonitions #增强markdown支持警示语

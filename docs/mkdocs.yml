@@ -27,3 +27,10 @@ copyright: Copyright © 2020 [xxx](https://www.xxx.com/)
 
 plugins:
   - search
+  - include-markdown
+  - mkdocstrings:
+      handlers:
+          python:
+            setup_commands:
+              - import sys
+              - sys.path.insert(0, "..")
